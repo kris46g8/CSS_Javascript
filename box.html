@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box test</title>
+    <link rel="stylesheet" href="box-style.css" type="text/css">
+</head>
+
+<body>
+    <main>
+        <div id="box1"></div>
+        <div id="box2" class="animate"></div>
+        <script>
+            const mybox = document.querySelector("#box2");
+
+            mybox.addEventListener("click", runAnimation);
+
+            function runAnimation(){
+                console.log(this)
+                mybox.classList.add("animate");
+            }
+
+            console.log(mybox)
+        </script>
+
+
+    </main>
+</body>
+</html>
+
+
+
+
+<!--<script>
+            let jobTitle = "I will be a Graphic Designer,";
+           let place ="living in California,";
+            let married="married to the greatest person in the world";
+            let kids="without any kids."
+            let fortune = jobTitle+" "+place+" "+married+" "+kids ;
+            console.log(fortune);
+        </script>*/

@@ -1,0 +1,83 @@
+div {
+    width: 10vh;
+    height: 10vh;
+    background-color: red;
+    margin: 1em;
+}
+
+/*animation that moves 50% to the right in 1sec
+#box1:hover {
+    animation: change 1s;
+    background-color: red;
+}
+
+@keyframes change{
+    25%{
+        background-color: ;
+        border-radius: 0;
+        transform: ;
+    }
+    50%{
+        background-color: ;
+        border-radius: ;
+        transform: ;
+
+    }
+    100%{
+        transform: translate(50vw);
+}*/
+
+/*
+#box1:hover {
+    animation: change 1s forwards alternate infinite;
+    animation-timing-function: linear;
+    background-color: red;
+}
+
+@keyframes change{
+    25%{
+        background-color: ;
+        border-radius: 0;
+        transform: ;
+    }
+    50%{
+        background-color: ;
+        border-radius: ;
+        transform: ;
+
+    }
+    100%{
+      transform: translate(50vw);
+} */
+
+.animate {
+    animation: change 2s infinite;
+    animation-timing-function: linear;
+    background-color: red;
+}
+
+@keyframes change {
+    25% {
+        background-color: yellow;
+        transform: translateY(20vw) rotate(-90deg);
+    }
+
+    50% {
+        background-color: blue;
+        border-radius: ;
+        transform: translateX(20vw) translateY(20vw) rotate(-180deg);
+
+    }
+
+    75% {
+        background-color: green;
+        transform: translateY(0vw) translateX(20vw) rotate(-270deg);
+    }
+
+    100% {
+        transform: translateY(0) translateX(0vw) rotate(-360deg);
+    }
+
+
+
+    A. Make the box move infinitely around in a square pattern while it changes color in each corner of the square. B. Make the box rotate 90deg in each corner as well. 4. Challenge yourself – make something intriguing and complex J
